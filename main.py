@@ -14,7 +14,7 @@ def connect_to_db():
     print('connected')
 
 def function(a,b):
-    return a + b
+    return a - b
 
 
 
