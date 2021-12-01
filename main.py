@@ -11,10 +11,18 @@ def print_hi(name):
 
 def connect_to_db():
     passwd = password
+    print('connected')
+
+def function(a,b):
+    return a + b
+
+
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
     print('hello world')
+    print(function(3,4))
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
